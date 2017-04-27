@@ -1,10 +1,97 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 26/04/2017, 07:25:36 PM
-    Author     : UPEU
-*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container{
+    background: #3366ff
+       
+}
+.body{
+    background: #cccccc;
+}
+.body h1{
+  
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:100%;
+  color: #2C2126;
+  font-style: italic;
+  text-align: center;
+         
+}
+.body h2{
+    color:#ff9933;
+   font-family:Arial,Helvetica,sans-serif;
+     font-style: italic;
+    font-size:150%;
+    color: #ff9933;
+    text-align: center;
+}
+.body p{
+   font-family:Arial,Helvetica,sans-serif;
+  font-size:100%;
+  color: #2C2126;
+  font-style: normal;
+  text-align: center;
+}
+#header1 {
+     background: #cccccc;       
+}
 
+#header1 ul {   
+    overflow: hidden;    
+}
+#header1 li a{
+    float: left;
+    margin: 20 5px;
+  
+}
+#header1 li a:hover{
+    color: rgba(0,250,0,0.5);
+   
+}
+.header2 img{
+    background: url(../imagenes/bg-home.png);
+    margin: 500;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    right: 500;
+    left: 500;
+    top: 0.5;
+    
+}
+
+nav ul{
+    background: #cccccc; 
+    display: flex;
+    list-style: none;   
+    
+}
+nav ul ul{
+    display: none;
+}
+nav a{
+    font-weight: bold;
+    display: block;
+    color:#2C2126;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;    
+}
+#footer2{
+    font-family:Times New Roman;
+    font-style: italic;
+    background: #ff9933;
+    text-align: center;
+}
+.connect{
+  
+    
+    
+}
